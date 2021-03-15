@@ -222,7 +222,6 @@
 }
 
 
-
 /*years of experience*/
 
 #grid-container #grid-item2 .year-experiences .details-of-exp{
@@ -524,7 +523,7 @@ height: 33%;
   color: white;
   /* margin-left: auto; */
   position: relative;
-  border: 1px solid white;
+  
   margin-left: -2px;
   
   
@@ -551,46 +550,75 @@ height: 33%;
 }
  
 #footer{
-	
-	width: auto;
+	background-color: #121212;
+	width: 100%;
 	height: auto;
 	color: white;
 } 
 #footer #row1{
-	background-color: rgb(36, 33, 33);
-	max-width: 100%;
-	display: flex;
-	border: 1px solid white;
-	padding: 5%;
-	padding-left:40%;
-	
+	width: 100%;
+	display: inline-flex;
+	text-align: left;
+	right: 0;
 	
 }
 #footer #row1 .column1{
 	background-color: rgba(0,0,0,0.2);
 	color: white;
-	margin-left: auto;
 	line-height: 3;
-	/* margin: 5%; */
+	width: 100%;
+	padding: 5%;
+	margin-left: 0px;
 	
 }
 
-#footer #row1 .column1 ul{
-	
-	font: 30px;
-
-}
-#footer #row1 .column1 ul li a{
+#footer #row1 .column1 .navigation ul li a{
 	text-decoration: none;
 	font-size: 20px;
-	color: white;
+	color: #868c98;
 
 }
-#footer #row1 .column1 ul li {
+ #footer #row1 .column1 .links ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #868c98;
+
+}
+#footer #row1 .column1 .navigation ul li {
 	line-height: 3;
+} 
+#footer #row1 .column1 .navigation ul {
+	list-style-type: none;
+
+} 
+#footer #row1 .column1 .links ul {
+	list-style-type: none;
+
+} 
+#social-media .images img
+{
+	/* display: inline-flex; */
+	/* position: relative; */
+	/* vertical-align: middle; */
+	height: 60px;
+	width: 60px;
+	padding: 3px;
 
 }
 
+#least-footer{
+	background-color: rgba(0,0,0,0.2);
+	padding-bottom: 5%;
+
+}
+#least-footer p{
+	padding-left: 5%;
+	
+}
+#least-footer a{
+	color: #f04e3c;
+	
+}
 
 
 
